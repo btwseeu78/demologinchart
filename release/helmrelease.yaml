@@ -1,0 +1,14 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: podinfo-dev
+  annotations:
+    fluxcd.io/automated: "true"
+spec:
+  releaseName: podinfo-dev
+  chart:
+    name: pod info dev
+    git: https://github.com/btwseeu78/demologinchart.git
+  values:
+    images:
+      name: linuxarpan/kanikotesting
