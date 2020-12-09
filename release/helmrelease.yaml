@@ -5,10 +5,11 @@ metadata:
   annotations:
     fluxcd.io/automated: "true"
 spec:
-  releaseName: podinfo-dev
   chart:
-    name: pod info dev
+    name: demologinchart
     git: https://github.com/btwseeu78/demologinchart.git
+    path: charts/demologinchart
+    ref: master
   values:
     images:
       name: linuxarpan/kanikotesting
