@@ -4,6 +4,8 @@ kind: Deployment
 metadata:
   name: login-deployment
   namespace: default
+  annotations:
+    fluxcd.io/automated: "true"
 spec:
   selector:
     matchLabels:
