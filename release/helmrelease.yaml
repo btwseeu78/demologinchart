@@ -8,7 +8,7 @@ spec:
   chart:
     name: demologinchart
     git: https://github.com/btwseeu78/demologinchart.git
-    path: charts/demologinchart
+    path: ./charts/demologinchart
     ref: master
   values:
     images:
