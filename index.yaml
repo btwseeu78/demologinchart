@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  demologinchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-12-19T10:58:40.4095865+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 62fb9707b4961c4cdf082335df7a2f3235edc05a8dc30f7bfd1ae57c7ea54d6e
+    name: demologinchart
+    type: application
+    urls:
+    - https://github.com/btwseeu78/demologinchart/releases/download/demologinchart-0.1.0/demologinchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-12-19T10:58:39.8896746+05:30"
